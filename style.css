@@ -1,0 +1,71 @@
+.container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open sans'}
+.card {
+  width: 180px;
+  background-color: #3cb878;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: white;
+  box-shadow: 0px 0px 3px 2px grey;
+  }
+.card-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h3{margin-top: 0px;}
+#terms {
+  position: relative;
+  top: 2px;
+  left: 0 px;
+  border-radius: 3%;
+  border: solid grey;
+}
+.newsletter-form #email{
+  width: 100%;
+  border: solid thin #cfcfcf;
+  height: 30px;
+  padding-left: 3px;
+  border-radius: 3%;
+  box-sizing: border-box;
+}
+.newsletter-form button {
+  display: block;
+  width: 100%;
+  background: #3cb878;
+  border: none;
+  color: white;
+  height: 30px;
+  margin-top: 5px;}
+.newsletter-form {
+  margin-top: 40px;
+  color: grey;
+  border: solid thin #cfcfcf;
+  padding: 10px;
+  position: relative;}
+.closing-x {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+ }
+#question-circle {
+  height: 100px;
+  width: 100px;
+  background-color: #3cb878;
+  border-radius: 50%;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+  .closing-x button {
+  background: none;
+  color: black;
+     cursor: pointer;
+}
